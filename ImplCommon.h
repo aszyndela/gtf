@@ -170,6 +170,7 @@ public:
 	}
 	virtual void prepare(Setup &setup) = 0;
 	virtual void done() = 0;
+	virtual ~ARealBus() {}
 };
 
 /*
